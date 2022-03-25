@@ -14,8 +14,6 @@ Escaped mutants:
      {
          $factor = $c ? 1.1 : 1;
          return $a * $b * $factor;
-     }
- }
 
 
 Timed Out mutants:
