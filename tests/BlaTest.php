@@ -36,7 +36,7 @@ class BlaTest extends TestCase
         $this->assertEquals(6, (new Bla())->altceva(null,false,3));
         $this->assertEquals(2.222, (new Bla())->altceva(null,false));
 //        $this->assertEquals(2.4442, (new Bla())->altceva(null));
-        $this->assertEquals(2.4442, (new Bla())->altceva(2));
+//        $this->assertEquals(2.4442, (new Bla())->altceva(2));
     }
 
 

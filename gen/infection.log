@@ -16,6 +16,21 @@ Escaped mutants:
          return $a * $b * $factor;
 
 
+2) /Users/bpopescu/Projects/infection/src/Bla.php:13    [M] TrueValue
+
+--- Original
++++ New
+@@ @@
+         $factor = $c ? 1.1 : 1;
+         return $a * $b * $factor;
+     }
+-    public function altceva(?float $a, bool $c = true, float $f = 1.111) : float
++    public function altceva(?float $a, bool $c = false, float $f = 1.111) : float
+     {
+         $factor = $c ? 1.1 : 1;
+         $x = !empty($a) ? $a : 2;
+
+
 Timed Out mutants:
 ==================
 
