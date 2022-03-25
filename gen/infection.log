@@ -1,0 +1,28 @@
+Escaped mutants:
+================
+
+1) /Users/bpopescu/Projects/infection/src/Bla.php:7    [M] FalseValue
+
+--- Original
++++ New
+@@ @@
+ 
+ class Bla
+ {
+-    public function ceva(float $a, float $b, bool $c = false) : float
++    public function ceva(float $a, float $b, bool $c = true) : float
+     {
+         $factor = $c ? 1.1 : 1;
+         return $a * $b * $factor;
+     }
+ }
+
+
+Timed Out mutants:
+==================
+
+Skipped mutants:
+================
+
+Not Covered mutants:
+====================
